@@ -29,6 +29,7 @@
 }
 
 #fondo-conocer-mas{
+    height: 400px;
     background-color: #33393F;
 }
 
@@ -66,9 +67,22 @@
 
 #contenido-footer{
     background-color: #1b4961;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #contenido-footer a{
     color: white;
     text-decoration: none;
+}
+
+.link-footer{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    margin: 25px;
+    text-align: center;
 }
